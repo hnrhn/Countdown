@@ -1,0 +1,44 @@
+#calendar {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(97, 1fr);
+    width: 85vw;
+    height: 85vh;
+    grid-area: cal;
+}
+
+.dayLabel {
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hourLabel {
+    border-top: 1px solid #aaaaaa;
+    color: #aaaaaa;
+    text-align: right;
+    padding-right: 0.5rem;
+}
+
+.fifteen {
+    border-top: 1px solid #dddddd;
+}
+
+.hour {
+    border-top: 1px solid #aaaaaa;
+}
+
+.day {
+    border-right: 1px solid #aaaaaa;
+}
+
+.last {
+    border-bottom: 1px solid #dddddd;
+}
+
+.event {
+    background-color: red;
+    color: navy;
+}
+

@@ -1,0 +1,52 @@
+html {
+    font-family: Verdana, sans-serif;
+}
+
+main {
+    margin: auto;
+    max-width: 60rem;
+}
+
+.item {
+    height: 100%;
+    display: flex;
+    border: 1px solid black;
+    margin-bottom: 0.3rem;
+}
+
+.type {
+    flex: 1;
+}
+
+.event {
+    background-color: orange;
+}
+
+.task {
+    background-color: green;
+}
+
+.overdue {
+    background-color: red;
+}
+
+.name {
+    display: flex;
+    float: left;
+    flex: 32;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.time {
+    float: left;
+    flex: 4;
+    text-align: center;
+    border-left: 1px solid #ddd;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.time>.number {
+    font-size: xx-large;
+}
